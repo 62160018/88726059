@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            background-image: url("https://data.1freewallpapers.com/download/sun-mountains-vector-art-trees-landscape-pastel-1920x1080.jpg");
+        }
+        html {
+          font-family: sans-serif;
+        }
+  
+        body {
+          width: 50%;
+          max-width: 800px;
+          min-width: 480px;
+          margin: 0 auto;
+        }
+  
+        .lastResult {
+          color: rgb(134, 35, 35);
+          padding: 3px;
+        }
+      </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello</title>
+    <script>
+        function namein(n) {
+        ////ให้ตัวแปร div อ้างถึงแทกที่กำหนด id เป็น disp/////
+        div = document.getElementById('nn');
+        div.innerHTML = "";
+        div.innerHTML += "Hello " + n + " ";
+    }
+    </script>
+</head>
+<body align = "center">
+    <b>1.โปรแกรมทักทาย</b></br></br>
+    <input type="text" onkeyup="namein(this.value);">
+    <div id="nn"></div>
+        
+        
+       
+</body>
+</html>
